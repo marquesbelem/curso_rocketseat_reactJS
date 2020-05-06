@@ -63,3 +63,13 @@
     color: #ffffff;
     cursor: pointer;
 }
+
+.product-list .actions button[disabled] {
+    opacity: 0.5;
+    cursor: default;
+}
+
+.product-list .actions button[disabled]:hover {
+    opacity: 0.5;
+    background-color: brown;
+}
